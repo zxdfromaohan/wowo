@@ -1,0 +1,26 @@
+1、右键选择Git Bash Here，在git bash界面输入如下内容即可完成邮箱的注册：
+git config --global user.name "zxd"
+（说明：双引号中需要你的用户名，这个可以随便输入，比如“ming.xiao”）
+git config --global user.email "729198387@qq.com"
+（说明： 双引号中需要输入你的有效邮箱，比如“729198387@qq.com”）
+
+2、查看是否存在ssh keys
+cd ~/.ssh
+3、创建新的ssh keys
+ssh-keygen -t rsa -C "729198387@qq.com"
+此时让输入存放目录，可以直接回车为空，ssh keys生成后存放的路径为C:\User\.ssh，
+输入密码：
+重新输入密码：
+
+4、
+a 输入  cd ~/.ssh  进入到.ssh 文件夹
+b 输入 ls 查看.ssh 文件夹里面有 id_rsa  id_rsa.pub  known_hosts 文件
+c 输入pwd 查看.ssh 文件路径位置地址
+
+5、将本地仓库的秘钥复制到github上；
+
+6、本地仓库与远程仓库链接
+	git remote add origin git@github.com:zxdfromaohan/wowo-.git
+ 
+2、选择要建立的本地仓库文件夹，
+  git init
