@@ -19,8 +19,15 @@ c 输入pwd 查看.ssh 文件路径位置地址
 
 5、将本地仓库的秘钥复制到github上；
 
-6、本地仓库与远程仓库链接
-	git remote add origin git@github.com:zxdfromaohan/wowo-.git
+
  
-2、选择要建立的本地仓库文件夹，
+6、选择要建立的本地仓库文件夹，
   git init
+
+7、本地仓库与远程仓库链接
+	git remote add origin git@github.com:zxdfromaohan/wowo-.git
+8、
+git status
+git add .
+git commit -m "提交信息"
+git push -u origin master

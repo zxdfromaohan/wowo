@@ -1,0 +1,65 @@
+2020_09_29 15:27:54.001 system-service [main] INFO  c.z.b.CrtfBlogsSystemSeviceApplication - No active profile set, falling back to default profiles: default
+2020_09_29 15:27:54.679 system-service [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=9281907e-ad86-360a-9189-b9294d65355d
+2020_09_29 15:27:55.190 system-service [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9095 (http)
+2020_09_29 15:27:55.197 system-service [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020_09_29 15:27:55.198 system-service [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020_09_29 15:27:55.300 system-service [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020_09_29 15:27:55.301 system-service [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1277 ms
+2020_09_29 15:27:55.975 system-service [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020_09_29 15:27:55.975 system-service [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020_09_29 15:27:55.979 system-service [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020_09_29 15:27:55.979 system-service [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020_09_29 15:27:56.230 system-service [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020_09_29 15:27:57.130 system-service [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2020_09_29 15:27:57.822 system-service [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020_09_29 15:27:58.033 system-service [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2020_09_29 15:27:58.059 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020_09_29 15:27:58.661 system-service [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020_09_29 15:27:58.662 system-service [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020_09_29 15:27:58.783 system-service [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020_09_29 15:27:58.783 system-service [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020_09_29 15:27:58.939 system-service [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020_09_29 15:27:59.411 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020_09_29 15:27:59.411 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020_09_29 15:27:59.411 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020_09_29 15:27:59.411 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2020_09_29 15:27:59.411 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020_09_29 15:27:59.411 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020_09_29 15:27:59.411 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020_09_29 15:27:59.588 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2020_09_29 15:27:59.589 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2020_09_29 15:27:59.592 system-service [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020_09_29 15:27:59.595 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1601364479594 with initial instances count: 0
+2020_09_29 15:27:59.602 system-service [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SYSTEM-SERVICE with eureka with status UP
+2020_09_29 15:27:59.602 system-service [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1601364479602, current=UP, previous=STARTING]
+2020_09_29 15:27:59.604 system-service [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SYSTEM-SERVICE/system-service:192.168.43.156:9095: registering service...
+2020_09_29 15:27:59.631 system-service [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9095 (http) with context path ''
+2020_09_29 15:27:59.633 system-service [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9095
+2020_09_29 15:27:59.668 system-service [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SYSTEM-SERVICE/system-service:192.168.43.156:9095 - registration status: 204
+2020_09_29 15:28:00.272 system-service [main] INFO  c.z.b.CrtfBlogsSystemSeviceApplication - Started CrtfBlogsSystemSeviceApplication in 8.559 seconds (JVM running for 9.927)
+2020_09_29 15:28:29.590 system-service [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020_09_29 15:28:29.591 system-service [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020_09_29 15:28:29.591 system-service [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020_09_29 15:28:29.591 system-service [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2020_09_29 15:28:29.591 system-service [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020_09_29 15:28:29.591 system-service [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2020_09_29 15:28:29.591 system-service [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020_09_29 15:28:29.624 system-service [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2020_09_29 15:28:40.741 system-service [http-nio-9095-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020_09_29 15:28:40.742 system-service [http-nio-9095-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020_09_29 15:28:40.758 system-service [http-nio-9095-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020_09_29 15:28:40.791 system-service [http-nio-9095-exec-1] INFO  c.z.blogs.controller.UserController - UserController-------------sys
+2020_09_29 15:28:40.791 system-service [http-nio-9095-exec-1] INFO  c.z.blogs.controller.UserController - UserServiceImpl-------------sys
+2020_09_29 15:32:59.413 system-service [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020_09_29 15:35:38.309 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2020_09_29 15:35:38.310 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SYSTEM-SERVICE with eureka with status DOWN
+2020_09_29 15:35:38.311 system-service [RMI TCP Connection(20)-127.0.0.1] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1601364938311, current=DOWN, previous=UP]
+2020_09_29 15:35:38.311 system-service [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SYSTEM-SERVICE/system-service:192.168.43.156:9095: registering service...
+2020_09_29 15:35:38.319 system-service [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SYSTEM-SERVICE/system-service:192.168.43.156:9095 - registration status: 204
+2020_09_29 15:35:38.728 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2020_09_29 15:35:38.730 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020_09_29 15:35:38.776 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020_09_29 15:35:38.778 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2020_09_29 15:35:41.784 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2020_09_29 15:35:41.794 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SYSTEM-SERVICE/system-service:192.168.43.156:9095 - deregister  status: 200
+2020_09_29 15:35:41.808 system-service [RMI TCP Connection(20)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
